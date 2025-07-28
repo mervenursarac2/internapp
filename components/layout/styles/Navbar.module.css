@@ -1,0 +1,57 @@
+.navbar {
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0; 
+  right: 0;
+  z-index: 100;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 12px; 
+  align-items: center;
+}
+
+.profileButton, 
+.logoutButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-family: 'Arial', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.profileButton {
+  background-color: white;
+  color: #737373;
+  border: none;
+}
+
+.logoutButton {
+  background-color: white;
+  color: #737373;
+  border: none;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.profileButton:hover {
+  background-color: #e0e0e0;
+}
+
+.logoutButton:hover {
+  background-color: #e0e0e0;
+}

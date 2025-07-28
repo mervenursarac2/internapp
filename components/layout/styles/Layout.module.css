@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.mainContent {
+  margin-left: 80px; /* Sidebar genişliği */
+  margin-top: 80px;   /* Navbar yüksekliği */
+  padding: 20px;
+  flex: 1;
+  background-color: #f5f5f5;
+}

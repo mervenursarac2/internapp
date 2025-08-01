@@ -1,0 +1,50 @@
+.card {
+  background-color: #16a6a1;
+  color: white;
+  width: 100%; /* Esnek genişlik */
+  max-width: 250px; /* Maksimum genişlik */
+  aspect-ratio: 2/3; /* Sabit en-boy oranı (2:3) */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Dikeyde ortala */
+  align-items: center; /* Yatayda ortala */
+  padding: 25px; /* Padding'i artıralım */
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cardTitle {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2rem; /* Sabit font boyutu */
+  flex-shrink: 0; /* Başlık boyutunun küçülmesini engelle */
+}
+
+.cardUpload {
+  background-color: #12817d;
+  width: 100%;
+  height: 55%; /* Alan yüksekliğini artırdık */
+  min-height: 180px; /* Minimum yükseklik garantisi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  position: relative; /* İkon pozisyonlaması için */
+}
+
+.uploadIcon {
+  width: 40%; /* İkon boyutunu küçülttük */
+  max-width: 80px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease; /* Hover efekti için */
+}
+
+/* Hover efekti ekleyelim */
+.cardUpload:hover .uploadIcon {
+  transform: scale(1.1);
+}

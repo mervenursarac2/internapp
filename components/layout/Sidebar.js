@@ -5,7 +5,7 @@ const Sidebar = () => {
   const menuItems = [
     { icon: '/home.png', label: 'Ana Sayfa', path: '/' },
     { icon: '/report.png', label: 'Belgeler', path: '/belgeler' },
-    { icon: '/upload.png', label: 'Yükleme', path: '/upload' },
+    { icon: '/upload-icon.png', label: 'Yükleme', path: '/upload' },
     { icon: '/settings.png', label: 'Ayarlar', path: '/ayarlar' },
     { icon: '/question-sign.png', label: 'İnfo', path: '/info' },
 

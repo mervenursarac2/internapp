@@ -1,0 +1,102 @@
+.container {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.tabs {
+  margin-bottom: 0;
+  padding-left: 28px;
+}
+
+.folderTab {
+  height: 36px;
+  position: relative;
+  background-color: #FcFcfc;
+  display: inline-block;
+  z-index: 2;
+  margin-right: 30px;
+  color: #788EAB;
+  cursor: pointer;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: -1px;
+}
+
+.folderTab.selected {
+  z-index: 3;
+  color: #16a6a1;
+  background-color: #FFF;
+  border-bottom: 1px solid #FFF;
+}
+
+.folderTab::before,
+.folderTab::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 36px;
+  background-color: inherit;
+  top: 0;
+}
+
+.folderTab::before {
+  left: -10px;
+  transform: skewX(-20deg);
+  border-radius: 10px 0 0 0;
+}
+
+.folderTab::after {
+  right: -10px;
+  transform: skewX(20deg);
+  border-radius: 0 10px 0 0;
+}
+
+.folderTab span {
+  display: inline-block;
+  padding: 0 15px;
+  line-height: 36px;
+}
+
+.page {
+  background-color: #ffffff;
+  padding: 25px;
+  color: #555;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  color: #16a6a1;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 1.3rem;
+}
+
+.content {
+  line-height: 1.7;
+}
+.content ul, .content ol {
+  margin: 15px 0;
+  padding-left: 25px;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+.content h4 {
+  color: #555;
+  margin: 20px 0 10px 0;
+  font-size: 1.1rem;
+}
+
+.content strong {
+  color: #333;
+}
+
+.tabContent {
+  display: block;
+}

@@ -3,10 +3,10 @@
   min-height: 100vh;
 }
 
-.mainContent {
-  margin-left: 80px; /* Sidebar genişliği */
-  margin-top: 80px;   /* Navbar yüksekliği */
-  padding: 20px;
+.content {
   flex: 1;
-  background-color: #f5f5f5;
+  margin-left: 85px; /* Sidebar genişliği kadar */
+  margin-top: 80px;  /* Navbar yüksekliği kadar */
+  padding: 20px;
+  background-color: var(--background);
 }

@@ -1,4 +1,4 @@
-
+'use client';
 import Card from "@/components/cards/Card";
 import styles from "./page.module.css";
 

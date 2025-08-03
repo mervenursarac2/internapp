@@ -47,3 +47,35 @@
 .cardUpload:hover .uploadIcon {
   transform: scale(1.1);
 }
+/* Gizli dosya inputu */
+.fileInput {
+  display: none;
+}
+
+/* Dosya adı görüntüleme */
+.fileName {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  word-break: break-all; /* Uzun dosya adlarını satır sonunda böl */
+  text-align: center;
+}
+
+/* Yükleme durumu container */
+.uploadStatus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Yükleme animasyonu */
+.loadingIcon {
+  animation: spin 1s linear infinite; /* Dönen animasyon */
+}
+
+/* Animasyon tanımı */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

@@ -14,9 +14,9 @@
   }
   
   .card {
-    width: 90vw; /* Mobilde ekran genişliğine uyum */
+    width: 90vw; 
     max-width: none;
     height: auto;
-    min-height: 200px; /* Minimum yükseklik */
+    min-height: 200px; 
   }
 }
